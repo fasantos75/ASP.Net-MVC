@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - SollisDocProject.Web", "0 - SollisDocProject.Web", "{393A82B2-1C2E-4415-8FEB-7F7C23456DD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - SollisDocProject.Application", "1 - SollisDocProject.Application", "{D2DC2764-CD16-4CAD-8A58-0313D7E01CAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - SollisDocProject.Domain", "2 - SollisDocProject.Domain", "{EBF268CA-00D4-4EE1-87A4-67CFD18737B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - SollisDocProject.Infrastructure", "3 - SollisDocProject.Infrastructure", "{1F34A2D5-C604-44B0-9203-0B881295546C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SollisDocProject.Domain", "SollisDocProject.Domain\SollisDocProject.Domain.csproj", "{80114F1F-BF00-4C0A-9505-AB37A8E4D3D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SollisDocProject.Infrastructure.Data", "SollisDocProject.Infrastructure\SollisDocProject.Infrastructure.Data.csproj", "{3176DB98-9ED0-4523-989F-A67EEB096BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SollisDocProject.Web", "SollisDocProject.Web\SollisDocProject.Web.csproj", "{36F40E35-2638-44D8-8033-5CD5D895F6E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80114F1F-BF00-4C0A-9505-AB37A8E4D3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80114F1F-BF00-4C0A-9505-AB37A8E4D3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80114F1F-BF00-4C0A-9505-AB37A8E4D3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80114F1F-BF00-4C0A-9505-AB37A8E4D3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3176DB98-9ED0-4523-989F-A67EEB096BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3176DB98-9ED0-4523-989F-A67EEB096BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3176DB98-9ED0-4523-989F-A67EEB096BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3176DB98-9ED0-4523-989F-A67EEB096BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F40E35-2638-44D8-8033-5CD5D895F6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F40E35-2638-44D8-8033-5CD5D895F6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F40E35-2638-44D8-8033-5CD5D895F6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F40E35-2638-44D8-8033-5CD5D895F6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80114F1F-BF00-4C0A-9505-AB37A8E4D3D7} = {EBF268CA-00D4-4EE1-87A4-67CFD18737B1}
+		{3176DB98-9ED0-4523-989F-A67EEB096BF8} = {1F34A2D5-C604-44B0-9203-0B881295546C}
+		{36F40E35-2638-44D8-8033-5CD5D895F6E4} = {393A82B2-1C2E-4415-8FEB-7F7C23456DD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C15B96E2-A3E8-4728-B2FB-307914E5A508}
+	EndGlobalSection
+EndGlobal
